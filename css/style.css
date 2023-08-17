@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.loading-text{
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.bg{
+    background: url('https://www.allaboutgardening.com/wp-content/uploads/2022/01/Types-of-Flowers-in-Garden.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(70px);
+}
